@@ -1,6 +1,16 @@
 [package]
 name = "rust_r2_plugin"
+links = "plugin_rs"
+build = "build.rs"
 version = "0.1.0"
 authors = ["kriw <kotarou777775@gmail.com>"]
 
+[lib]
+name = "plugin"
+crate-type = ["dylib"]
+
 [dependencies]
+libc = "0.2.0"
+
+[build-dependencies]
+cc = "1.0.18"
