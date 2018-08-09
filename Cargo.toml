@@ -1,0 +1,6 @@
+[package]
+name = "rust_r2_plugin"
+version = "0.1.0"
+authors = ["kriw <kotarou777775@gmail.com>"]
+
+[dependencies]
